@@ -4,6 +4,7 @@
 body {
 	background-color: #1D4E04;   /* background color */
 	color:#000000;          /* text color for the entire page */
+	font-size: 100%;
 }
 
 h1, h2, h3 { 

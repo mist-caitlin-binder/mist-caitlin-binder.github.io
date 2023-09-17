@@ -5,6 +5,8 @@ body {
 	text-align: center;
 	background-color: #D7C6EB;
 	color: black;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {

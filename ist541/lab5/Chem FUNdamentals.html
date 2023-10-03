@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chemistry FUNdamentals</title>
+	
+	<link href="css/chemfun.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	
+	<div id="wrapper">
+		<h1>Chemistry Basics: Atomic Names and Symbols</h1>
+		
+		<iframe src="https://giphy.com/embed/ccx9r6nUP4jta4kq35" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/snl-saturday-night-live-season-47-ccx9r6nUP4jta4kq35">via GIPHY</a></p>
+		
+		<h2>Let's learn the atomic symbols for the most abundant elements on earth!</h2>
+		
+		<h4>Learning Objectives
+			<ol>
+  				<li>Identify the elemental name when given the atomic symbol of hydrogen, carbon, and oxygen  </li>
+  				<li>Determine the molecular formula when given a chemical structure</li>
+  				<li>Distinguish between an atom and molecule</li>
+	
+			</ol>
+		</h4>
+		
+		<h2>Click the atomic symbol to reveal its name</h2>
+
+		<table border="1" style="width:100%">
+			<tr>
+				<td>
+   					<h3 onclick="AnswerH()" class="choices"> H </h3>
+					
+        		</td> 
+				
+				 <td>
+       				<h3 onclick="AnswerC()" class="choices"> C </h3>
+       				
+    			</td>
+				
+    			<td>
+       			 	<h3 onclick="AnswerO()" class="choices"> O </h3>
+        			
+    			</td> 
+
+        	</tr>
+   		</table>     
+	</div>
+	
+	<div id="feedback"> 
+		
+		
+	 </div>
+
+<script>
+	function AnswerH(){
+         $("#feedback").html("<h2 style='color:white'> HYDROGEN </h2>");
+         $("#giphy-embedH").show(); /* how to get "giphy-embedH" to appear on click? */
+		$("#giphy-embedC").hide(); /* how to get "giphy-embedC" to hide on click? */
+		$("#giphy-embedO").hide(); /* how to get "giphy-embedO" to hide on click? */
+	}
+		
+	function AnswerC(){
+      $("#feedback").html("<h2 style='color:white'> CARBON </h2>");
+      $("#giphy-embedC").show();
+		$("#giphy-embedH").hide();
+		$("#giphy-embedO").hide();
+	}
+		
+   function AnswerO(){
+      $("#feedback").html("<h2 style='color:white'> OXYGEN </h2> ");
+      $("#giphy-embedO").show();
+		$("#giphy-embedC").hide();
+		$("#giphy-embedH").hide();
+   }
+
+</script>
+		<h2>Model of hydrogen atom</h2><iframe src="https://giphy.com/embed/VbQk7UzSrryWjuF7Yb" width="480" height="480" frameBorder="10" class="giphy-embedH" allowFullScreen></iframe> 
+				<p><a href="https://giphy.com/gifs/physics-visuals-proton-VbQk7UzSrryWjuF7Yb">via GIPHY</a>
+				</p>
+		
+		<h2>Model of carbon atom</h2><iframe src="https://giphy.com/embed/mJm6nVIf96cBpBNskS" width="480" height="480" frameBorder="10" class="giphy-embedC" allowFullScreen></iframe>
+			<p><a href="https://giphy.com/gifs/elements-atoms-protons-mJm6nVIf96cBpBNskS">via GIPHY</a>
+			</p>
+		
+		<h2>Model of oxygen atom</h2><iframe src="https://giphy.com/embed/W2KU5PKZJHnbF4pwc2" width="480" height="480" frameBorder="10" class="giphy-embedO" allowFullScreen></iframe>
+			<p><a href="https://giphy.com/gifs/W2KU5PKZJHnbF4pwc2">via GIPHY</a>
+			</p>
+</body>
+</html>

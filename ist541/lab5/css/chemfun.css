@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document Chem FUNdamentals*/
+
+body {
+	background-color: #1D4E04;   /* background color */
+	color:#000000;          /* text color for the entire page */
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+	color:#FFFFFF;       /* white text color */
+
+}		
+
+h3 {
+	text-align:center;     /* centers h4 content */
+	color:#000000;       /* exploring new text color */
+}
+
+h4 { 
+	text-align:left;     /* left aligns h4 content */
+	color:#FFFFFF;       /* white text color */
+
+}
+
+table {
+	margin:0 auto;  /* centers table*/
+	width:auto;
+}
+
+td {
+	background-color: white;  /* sets background color for table cells*/
+	text-align:center;     /* centers h4 content */
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+#giphy-embedH {
+border: black 5px solid; /* reveals H GIF */
+}
+
+#giphy-embedC {
+border: black 5px solid; /* reveals C GIF */
+}
+
+#giphy-embedO {
+border: black 5px solid; /* reveals O GIF */
+}
+
+.choices {
+cursor: pointer;
+}

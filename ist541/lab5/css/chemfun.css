@@ -16,7 +16,7 @@ h1, h2 {
 
 h3 {
 	text-align:center;     /* centers h4 content */
-	color:#000000;       /* exploring new text color */
+	color:#000000;       /* h3 black text */
 }
 
 h4 { 
@@ -36,23 +36,75 @@ td {
 }
 
 #wrapper {
-	width: 900px;
-	margin: 0 auto;
-	text-align: center;	
+	width: 90%;
+	margin: 0 auto;    /* centers wrapper */
+	align-content: center;
+}
+
+.giphy-embed {
+	align-content: center
 }
 
 #giphy-embedH {
-border: black 5px solid; /* reveals H GIF */
+	
 }
 
 #giphy-embedC {
-border: black 5px solid; /* reveals C GIF */
+	
 }
 
 #giphy-embedO {
-border: black 5px solid; /* reveals O GIF */
+	
 }
 
 .choices {
-cursor: pointer;
+	cursor: pointer;
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:3px;
+	text-align:center;
+	background-color:#F7B857;
+	font-weight: bold;
+	font-size: 150%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+ }
+
+.stepContent{ 
+	background-color: white;
+	padding:7px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+
+.stepDescription {
+	width:90%;
+	padding:5px;
+	line-height:200%;
+}
+
+.stepImage {
+	width:40%;	
+	padding:5px;
+	text-align: center;
+	align-content: center;
+}
+
+.stepImage img { 
+border-radius: 20px;
+	}
+
+
+strong {
+  font-weight: 800;
 }

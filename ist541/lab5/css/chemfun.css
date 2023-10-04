@@ -38,7 +38,7 @@ td {
 #wrapper {
 	width: 90%;
 	margin: 0 auto;    /* centers wrapper */
-	align-content: center;
+	text-align: center;
 }
 
 .giphy-embed {

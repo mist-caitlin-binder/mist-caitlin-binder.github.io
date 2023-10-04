@@ -78,7 +78,7 @@
 		
 		<div class="stepDescription">
 		<p>Molecules are made up of two or more atoms that are bonded together.</p>
-		<strong>Count the total number of carbon (C), hydrogen (H), and/or oxygen (O) atoms </strong> in each structure below to determine its molecular forumla. <p>Hover over each to reveal the answer and its chemical name.</p> <br>
+		<strong>Count the total number of carbon (C), hydrogen (H), and/or oxygen (O) atoms </strong> in each structure below to determine its molecular forumla. <p> <strong>Hover over each to reveal the answer </strong>and its chemical name.</p> <br>
 			
 		<img onmouseenter="showWater()" class="choices" id="structurewater"  src="img/structure_water.png" alt="chemical structure of water"  />
 			
@@ -127,9 +127,9 @@
 	$("#giphy-embedO").hide();
 	$("#giphy-embedC").hide();
 	
-	$("#formulawater").hide();
+	$("#formulawater").hide(); /* hides all formulas until mouse hover */
 	$("#formulaethanol").hide();
-	$("#formulaisoproplanol").hide();
+	$("#formulaisopropanol").hide();
 	
 	function AnswerH(){
          $("#giphy-embedH").show(); 

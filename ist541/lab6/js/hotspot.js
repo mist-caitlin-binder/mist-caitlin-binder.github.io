@@ -1,7 +1,7 @@
 // JavaScript file
 $( function() {
-   $("map area").click( function(){
-	   $('#myModal').modal("show");
+	$("map area").click( function(){
+	$('#myModal').modal("show");
 
       if ($(this).attr("class") == "methyl") {
          $("#feedback").css("color","purple");
@@ -18,9 +18,14 @@ $( function() {
          $("#feedback").html("carbon atom bonded to 2 hydrogen atoms");
       }
 
-	   if ($(this).attr("class") == "quaternary") {
+		if ($(this).attr("class") == "quaternary") {
          $("#feedback").css("color","blue");
          $("#feedback").html("carbon atom without any hydrogen atoms");
+      }
+		
+		if ($(this).attr("class") == "oxygen") {
+         $("#feedback").css("color","black");
+         $("#feedback").html("this is an oxygen atom, not a carbon!");
       }
    });
 }); //end main jQuery function

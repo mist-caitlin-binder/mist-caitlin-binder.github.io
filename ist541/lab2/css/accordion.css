@@ -20,11 +20,37 @@ h3 {
 
 }	
 
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color:white; 
+	color: #1D4E04; 
+	align-content: center;
+}
+
+a:hover {
+	font-size:110%;
+	background-color: #F7B857; 
+	color: black; 
+}
+
+.navigation {
+	margin:0 auto;
+	width: 90%;
+}
+
+.footer {
+	margin-left:65%;
+	width:50%;
+}
+
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;    /* centers wrapper */
 }
+
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
@@ -42,8 +68,6 @@ h3 {
 .stepContent{ 
 	background-color: white;
 	padding:7px;
-	display: flex;
-	flex-wrap:wrap;
 	justify-content: center;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
@@ -53,7 +77,7 @@ h3 {
 }
 
 .stepDescription {
-	width:55%;
+	width:100%;
 	padding:5px;
 	line-height:200%;
 	color:green;
@@ -61,15 +85,14 @@ h3 {
 }
 
 .stepImage {
-	width:40%;	
+	width:80%;	
 	padding:5px;
-	text-align: right;
+	text-align: center;
 }
 
 .stepImage img { 
 	border-radius: 20px;
-	align-content: left;
-	
+	align-content: center;
 }
 
 .warning {

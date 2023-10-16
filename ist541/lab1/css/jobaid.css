@@ -49,6 +49,7 @@ a:hover {
 #wrapper {
 	width: 90%;
 	margin: 0 auto;    /* centers wrapper */
+	text-align: center;
 }
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */

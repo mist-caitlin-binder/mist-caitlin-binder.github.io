@@ -41,6 +41,7 @@ h4 {
 #wrapper {
 	width: 90%;
 	margin: 0 auto;    /* centers wrapper */
+	text-align: center;
 }
 
 .navigation {

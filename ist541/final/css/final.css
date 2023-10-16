@@ -40,7 +40,6 @@ h4 {
 /* styles for the "wrapper" div */
 #wrapper {
 	width: 90%;
-	text-align: left;
 	margin: 0 auto;    /* centers wrapper */
 }
 

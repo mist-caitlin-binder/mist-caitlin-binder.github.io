@@ -25,6 +25,31 @@ h4 {
 
 }
 
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color:white; 
+	color: #1D4E04; 
+	align-content: center;
+}
+
+a:hover {
+	font-size:110%;
+	background-color: #F7B857; 
+	color: black; 
+}
+
+.navigation {
+	margin:0 auto;
+	width: 90%;
+}
+
+.footer {
+	margin-left:65%;
+	width:50%;
+}
+
 table {
 	margin:0 auto;  /* centers table*/
 	width:auto;

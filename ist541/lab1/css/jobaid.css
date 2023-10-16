@@ -5,6 +5,7 @@ body {
 	background-color: #1D4E04;   /* background color */
 	color:#000000;          /* text color for the entire page */
 	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2 { 
@@ -18,6 +19,31 @@ h3 {
 	color:#FFFFFF;       /* exploring new text color */
 
 }	
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color:white; 
+	color: #1D4E04; 
+	align-content: center;
+}
+
+a:hover {
+	font-size:110%;
+	background-color: #F7B857; 
+	color: black; 
+}
+
+.navigation {
+	margin:0 auto;
+	width: 90%;
+}
+
+.footer {
+	margin-left:65%;
+	width:50%;
+}
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {

@@ -1,18 +1,107 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
-	font-family:Verdana, Geneva, sans-serif;
-	text-align:center;   /* centers all content */	
-}
-
 #wrapper {
 	width:85%;
 	margin:0 auto;       /* centers wrapper */
 }
 
+body {
+	background-color: #1D4E04;   /* background color */
+	color:#000000;          /* text color for the entire page */
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+	color:#FFFFFF;       /* white text color */
+
+}		
+
+h3 {
+	text-align:center;     /* centers h4 content */
+	color:#000000;       /* h3 black text */
+}
+
+h4 { 
+	text-align:left;     /* left aligns h4 content */
+	color:#FFFFFF;       /* white text color */
+
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color:white; 
+	color: #1D4E04; 
+	align-content: center;
+}
+
+a:hover {
+	font-size:110%;
+	background-color: #F7B857; 
+	color: black; 
+}
+
+.navigation {
+	margin:0 auto;
+	width: 90%;
+}
+
+.footer {
+	margin-left:65%;
+	width:50%;
+}
+
 #feedback {
-	background: lightyellow; /* background color */
 	padding: 20px; 
     font-size: 125%;
 }
+
+/* styles for the "stepTitle" class */
+.stepTitle{
+	padding:3px;
+	text-align:center;
+	background-color:#F7B857;
+	font-weight: bold;
+	font-size: 150%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+ }
+
+.stepContent{ 
+	background-color: white;
+	padding:7px;
+	justify-content: center;
+	text-align: left;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.stepDescription {
+	width:100%;
+	padding:5px;
+	line-height:200%;
+	text-align: left;
+}
+
+.stepImage {
+	width:75%;	
+	padding:5px;
+	text-align: center;
+}
+
+.stepImage img { 
+border-radius: 20px;
+}
+
+strong {
+  font-weight: 800;
+}
+
